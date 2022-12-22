@@ -6,7 +6,8 @@ function App() {
     <div className="App">
      <h1>Thiw is my html h3ading</h1>
      <lable>Name of Case Study: </lable>
-     <input type="text"></input> <br></br>
+     <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea>
+     {/* <input type="textarea"></input> <br></br> */}
      <lable>Topic: </lable>
      <input type="text"></input> <br></br>
      <lable>Sub-topic: </lable>

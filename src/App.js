@@ -6,24 +6,26 @@ function App() {
     <div className="App">
      <h1>Thiw is my html h3ading</h1>
      <lable>Name of Case Study: </lable>
-     <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea>
+     <textarea id="name" name="" rows="4" cols="50"></textarea><br></br>
      {/* <input type="textarea"></input> <br></br> */}
      <lable>Topic: </lable>
-     <input type="text"></input> <br></br>
+     <textarea id="topic" name="" rows="4" cols="50"></textarea><br></br>
      <lable>Sub-topic: </lable>
-     <input type="text"></input> <br></br>
+     <textarea id="stopic" name="" rows="4" cols="50"></textarea><br></br>
      <lable>Purpose/Objective: </lable>
-     <input type="text"></input> <br></br>
+     <textarea id="objective" name="" rows="4" cols="50"></textarea><br></br>
      <lable>Overview: </lable>
-     <input type="text"></input> <br></br>
+     <textarea id="overview" name="" rows="4" cols="50"></textarea><br></br>
      <lable>Desired Information: </lable>
-     <input type="text"></input> <br></br>
+     <textarea id="info" name="" rows="4" cols="50"></textarea><br></br>
      <lable>What is to be studied/found by his study? </lable>
-     <input type="text"></input> <br></br>
+     <textarea id="ques1" name="" rows="4" cols="50"></textarea><br></br>
      <lable>What will contributor gain ? </lable>
-     <input type="text"></input> <br></br>
+     <textarea id="ques2" name="" rows="4" cols="50"></textarea><br></br>
      <lable>Skill Wise: </lable>
-     <input type="text"></input> <br></br>
+     <textarea id="skill" name="" rows="4" cols="50"></textarea><br></br>
+
+     <input type="submit" value="Submit"></input><br></br>
 
     </div>
   );
